@@ -42,14 +42,5 @@ try:
     streamlit.dataframe (back_from_function)
 
 
-#don't run below while we troubleshoot
-#streamlit.stop()
-#my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
-#my_cur = my_cnx.cursor()
-#my_cur.execute("select * from fruit_load_list")
-#my_data_rows = my_cur.fetchall()
-#streamlit.header("The fruit load list contains:")
-#streamlit.dataframe(my_data_rows)
-#streamlit.write ('Thanks for adding ', add_my_fruit')
-#this will not work corretly, but just do it
+
     
