@@ -1,7 +1,6 @@
 import streamlit
 import pandas
 import requests
-import snowflake.connector
 
 #from urllib.error import URLError
 
@@ -22,16 +21,5 @@ fruits_selected= streamlit.multiselect("Pick some fruits:", list(my_fruit_list.i
 fruits_to_show = my_fruit_list.loc[fruits_selected]
 # Display the table on the page.
 streamlit.dataframe (fruits_to_show)
-
-
-
-
-
-
-
-
-
-
-
 
 import snoflake.connector
