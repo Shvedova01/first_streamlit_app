@@ -42,8 +42,8 @@ try:
         streamlit.dataframe(back_from_function)
 
     
-except URLError as e:
-    strealit.error()
+#except URLError as e:
+ #   strealit.error()
 streamlit.header("The fruit load list contains:")
 #Snoflake-related functions
 def get_fruit_load_list():
